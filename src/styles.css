@@ -274,6 +274,8 @@ h1 em, h2 em, h3 em { color: var(--accent); font-style: normal; }
 .field-label small { display: block; margin-top: 5px; color: #bd4c35; font: 10px var(--mono); }
 .field-error input, .field-error select { border-color: #bd4c35; }
 .form-submit { width: 100%; margin-top: 3px; }
+.form-submit:disabled { cursor: wait; opacity: .7; transform: none; }
+.form-error-message { margin: 14px 0; color: #a4321a; font-size: 13px; line-height: 1.5; }
 .form-note { margin: 15px 0 0; color: #8b9790; text-align: center; font: 10px var(--mono); }
 .success-state { min-height: 450px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
 .success-icon { display: grid; place-items: center; width: 50px; height: 50px; margin-bottom: 30px; color: #5c9d6e; border: 1px solid #acd0b1; background: #e4f2e5; }
